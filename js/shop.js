@@ -54,7 +54,7 @@ function loadGoods() {
             out+='<div class="single-goods">';
             out+='<h3>'+data[key]['name']+'</h3>';
             out+='<p>Цена: '+data[key]['cost']+'</p>';
-            out+='<img src="'+data[key].image+'">';
+            out+='<img src="'+data[key].img+'">';
             out+='<button>Купить</button>';
             out+='</div>';
         }
