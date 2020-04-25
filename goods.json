@@ -3,60 +3,60 @@
         "name":"Диван",
         "cost":"3999",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "2":{
         "name":"Кресло",
         "cost":"499",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "3":{
         "name":"Стол",
         "cost":"1999",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "4":{
         "name":"Ламинат",
         "cost":"1399",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "5":{
         "name":"Обои",
         "cost":"199",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "6":{
         "name":"Дверь",
         "cost":"3499",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "7":{
         "name":"окна",
         "cost":"5999",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "8":{
         "name":"Занавески",
         "cost":"799",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "9":{
         "name":"Ковер",
         "cost":"1499",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     },
     "10":{
         "name":"Линолиум",
         "cost":"1999",
         "description":"bla-bla-bla",
-        "img":"vokir.github.io/images/sofa.jpg"
+        "img":"images/sofa.jpg"
     }
 }
