@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   $('document').ready(function(){
-    function loadGoods();
+    loadGoods();
   });
 
   function loadGoods(){
