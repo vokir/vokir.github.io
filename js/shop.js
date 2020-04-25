@@ -40,4 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
   if (localStorage.getItem('stat') == "true") {
     document.getElementById("stat").setAttribute('checked','checked');
   }
-  
+
+  $('document').ready(function(){
+    function loadGoods();
+  });
+
+  function loadGoods(){
+    $.getJSON('goods.json', function(data){
+      console.log(data)
+    })
+  }
