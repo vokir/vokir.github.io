@@ -336,3 +336,9 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 .page-footer{
     background-color: #3346d1;
 }
+.sec1{
+    background-color: #fff;
+}
+.blue {
+    background-color: #3346d1 !important;
+}

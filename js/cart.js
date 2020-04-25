@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems, open);
@@ -45,58 +44,65 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("stat").setAttribute('checked','checked');
   }
 
+var cart={}; 
+ 
+$.getJSON('goods.json',function(data){
+  var goods=data;
+  checkCard();
+  showCart();
 
-  var cart={};
-  $('document').ready(function(){
-    loadGoods();
-    checkCard();
-    showMiniCart()
-});
-
-
-function loadGoods() {
-    //загружаю товары на страницу
-    $.getJSON('goods.json', function (data) {
-        //console.log(data);
-        var out = '';
-        for (var key in data){
-            out+='<div class="col m6 s12 l4">';
-            out+='<div class="card">';
-            out+='<div class="card-image">';
-            out+='<img src="'+data[key].img+'">';
-            out+='<a data-art="'+key+'" class="add-to-cart btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>';
-            out+='</div>';
-            out+='<div class="card-content">';
-            out+='<span class="card-title">'+data[key]['name']+'</span>';
-            out+='<p>Cost: '+data[key]['cost']+'</p>';
-            out+='</div>';
-            out+='</div>';
-            out+='</div>';
-        }
-        $('#goods').html(out);
-        $('a.add-to-cart').on('click', addToCart);
-    })
-}
-function addToCart(){
-  var articul = $(this).attr('data-art');
-  if (cart[articul]!=undefined){
-    cart[articul]++;
+  function showCart(){
+    var out='';
+    if($.isEmptyObject(cart)){
+      out+='<p>Cart is Empty</p>';
+      $('#myCart').html(out);
+    }
+    else{
+      for(var key in cart){
+        out+='<a data-art="'+key+'"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a>'
+        out+=goods[key].name;
+        out+='<a data-art="'+key+'"class="minus btn waves-effect waves-light"><i class="material-icons">-</i></a>'
+        out+=cart[key];
+        out+='<a data-art="'+key+'"class="plus btn waves-effect waves-light"><i class="material-icons">add</i></a>'
+        out+=cart[key]*goods[key].cost;
+        out+='<br>'
+      }
+    $('#myCart').html(out);
+    $('.plus').on('click',plusGoods);
+    $('.minus').on('click',minusGoods);
+    $('.delete').on('click',deleteGoods);
   }
-  else{
-    cart[articul] = 1;
-  }
-  localStorage.setItem('cart', JSON.stringify(cart));
-  showMiniCart()
 }
+  function plusGoods(){
+    var articale =$(this).attr('data-art');
+    cart[articale]++;
+    Save();
+    showCart();
+  }
+  function minusGoods(){
+    var articale =$(this).attr('data-art');
+    if(cart[articale]>1){
+      cart[articale]--;
+    }
+    else {
+      delete cart[articale];
+    }
+    Save();
+    showCart();
+  }
+  function deleteGoods(){
+    var articale =$(this).attr('data-art');
+    delete cart[articale];
+    Save();
+    showCart();
+  }
+})
+
 function checkCard(){
   if (localStorage.getItem('cart')!=null){
     cart = JSON.parse(localStorage.getItem('cart'));
   }
 }
-function showMiniCart(){
-  var out='';
-  for(var i in cart){
-    out+='<p>'+i+cart[i]+'</p>';
-  }
-  $('#mini-cart').html(out)
+function Save(){
+  localStorage.setItem('cart', JSON.stringify(cart));
 }
