@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function loadGoods(){
-    $.getJSON('goods.json', function(data){
+    $.getJSON('goods.json', function (data){
       console.log(data)
     })
   }
