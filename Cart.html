@@ -27,8 +27,8 @@
               </div>
               <ul class="right hide-on-med-and-down hover" id="nav-mobile">
                 <li><a href="index.html" class="waves-effect waves-light">Home</a></li>  
-                <li class="active"><a href="Shop.html" class="waves-effect waves-light">Shop</a></li>
-                <li><a href="Cart.html" class="waves-effect waves-light">Cart</a></li>
+                <li><a href="Shop.html" class="waves-effect waves-light">Shop</a></li>
+                <li class="active"><a href="Cart.html" class="waves-effect waves-light">Cart</a></li>
                 <li><a href="#" class="waves-effect waves-light">About us</a></li>
               </ul>
               <ul id="slide-out" class="sidenav ">
@@ -41,8 +41,8 @@
                     <a href="#"><span class="white-text email">volkodav.lol31@gmail.com</span></a>
                   </div></li>            
                 <li><a href="index.html" class="waves-effect waves-light">Home</a></li>  
-                <li class="active" ><a href="Shop.html" class="waves-effect waves-light">Shop</a></li>
-                <li><a href="Cart.html" class="waves-effect waves-light">Cart</a></li>
+                <li><a href="Shop.html" class="waves-effect waves-light">Shop</a></li>
+                <li class="active" ><a href="Cart.html" class="waves-effect waves-light">Cart</a></li>
                 <li><a href="#" class="waves-effect waves-light">About us</a></li>
               </ul>
             <div>
@@ -51,22 +51,24 @@
         </div>
       </header>
       <main>
-        <div class="fixed-action-btn">
-          <a class="btn-floating btn-large modal-trigger blue" href="#modal1">
-            <i class="large material-icons">shopping_cart</i>
-          </a>
-        </div>
-        <div id="modal1" class="modal bottom-sheet">
-          <div id="mini-cart" class="modal-content">
-            
-          </div>
-          <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-          </div>
-        </div>
-        <div id="myCart">
+        <div class="table-responsive">
+          <table class="responsive-table highlight">
+            <thead>
+              <tr>
+                  <th></th>
+                  <th>Название</th>
+                  <th>Цена</th>
+                  <th>Количество</th>
+                  <th>Сумма</th>
+              </tr>
+            </thead>    
+            <tbody id="cart">
 
-        </div>
+            </tbody>
+          </table>
+      </div>
+      <a class="btn btn-info" href="#">Оформить заказ</a>
+  </div>
       </main>
         <footer class="page-footer">
           <div class="container">
@@ -109,7 +111,7 @@
             </div>
           </div>
         </footer>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/cart.js"></script>
+        <script type="text/javascript" src="js/cart.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
   </html>

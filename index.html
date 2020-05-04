@@ -7,7 +7,7 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="css/dark.css">
       <script src="https://kit.fontawesome.com/cd7f012803.js" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
@@ -51,6 +51,19 @@
         </div>
       </header>
       <main>
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large modal-trigger blue" href="#modal1">
+            <i class="large material-icons">shopping_cart</i>
+          </a>
+        </div>
+        <div id="modal1" class="modal bottom-sheet">
+          <div id="mini-cart" class="modal-content">
+            
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>
       <section class="section-1">
         <div class="parallax-container">
           <div class="parallax" ><img id="imgPq" src="images/3.png"></div>

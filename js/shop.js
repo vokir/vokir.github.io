@@ -1,11 +1,10 @@
-
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, open);
+    let elems = document.querySelectorAll('.sidenav');
+    let instances = M.Sidenav.init(elems, open);
   });
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, open);
+    let elems = document.querySelectorAll('.modal');
+    let instances = M.Modal.init(elems, open);
   });
   'use strict';
   let head = document.head,
@@ -44,59 +43,170 @@ document.addEventListener('DOMContentLoaded', function() {
   if (localStorage.getItem('stat') == "true") {
     document.getElementById("stat").setAttribute('checked','checked');
   }
-
-
-  var cart={};
-  $('document').ready(function(){
-    loadGoods();
+let goods = [];
+let cart = {}; 
+let count = 0;
+pageSize = 9;
+$('document').ready(function(){
+    load();
     checkCard();
-    showMiniCart()
+    showMiniCart();
 });
 
 
-function loadGoods() {
-    //загружаю товары на страницу
-    $.getJSON('goods.json', function (data) {
-        //console.log(data);
-        var out = '';
-        for (var key in data){
-            out+='<div class="col m6 s12 l4">';
-            out+='<div class="card">';
-            out+='<div class="card-image">';
-            out+='<img src="'+data[key].img+'">';
-            out+='<a data-art="'+key+'" class="add-to-cart btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>';
-            out+='</div>';
-            out+='<div class="card-content">';
-            out+='<span class="card-title">'+data[key]['name']+'</span>';
-            out+='<p>Cost: '+data[key]['cost']+'</p>';
-            out+='</div>';
-            out+='</div>';
-            out+='</div>';
-        }
+function load(){
+    $.getJSON('goods.json', function(data){
+        $.each(data, function(key, val) {
+            goods.push(val);
+            count++;
+        });
+        let start = 0
+        let end = pageSize
+        let notes = goods.slice(start, end);
+            out = '';
+            for (let note of notes){
+            out += 
+            `<div class="col m6 s12 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="${note.img}" alt=" ... ">
+                  <a data-art="${note.id}" data-name="${note.name}" data-price="${note.cost}" class="add-to-cart btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <span class="card-title">${note.name}</span>
+                  <p>Цена: ${note.cost} ₽<p>
+                </div>
+              </div>
+            </div>
+            `;
+            }
+        let html ='<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>';
+        let countItems = Math.ceil(count / pageSize);
+        for (let i = 1; i<= countItems; i++){
+            html +='<li class="waves-effect"><a href="#!">'+i+'</a></li>';
+        } 
+        html += '<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>'
+                  
         $('#goods').html(out);
-        $('a.add-to-cart').on('click', addToCart);
-    })
+        $('a.add-to-cart').on('click', addToCart);         
+        $('#pagination').html(html)
+
+
+        let items = document.querySelectorAll('#pagination a')
+        for(let item of items){
+          item.addEventListener('click', function(){
+            let pageNum = +this.innerHTML;
+    
+            let start = (pageNum - 1) * pageSize;
+    
+            let end = start + pageSize;
+    
+            let notes = goods.slice(start, end);
+            console.log(notes)
+            out = '';
+            for (let note of notes){
+              out += 
+              `<div class="col m6 s12 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="${note.img}" alt=" ... ">
+                  <a data-art="${note.id}" data-name="${note.name}" data-price="${note.cost}" class="add-to-cart btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
+                <div class="card-content">
+                  <span class="card-title">${note.name}</span>
+                  <p>Цена: ${note.cost} ₽<p>
+                </div>
+              </div>
+            </div>
+            `;
+            }
+            $('#goods').html(out);
+            $('a.add-to-cart').on('click', addToCart);
+          });
+        }
+    });
 }
+
 function addToCart(){
-  var articul = $(this).attr('data-art');
-  if (cart[articul]!=undefined){
-    cart[articul]++;
+    let name = $(this).attr('data-name');
+    let price = $(this).attr('data-price');
+    let id = $(this).attr('data-art');
+    if (cart[id]!=undefined){
+        cart[id].count++;
+        cart[id] ={
+        price: price*cart[id].count,
+        name: name,
+        count:cart[id].count
+        }
+  
+    }
+    else{
+        cart[id] ={
+        price: price,
+        name: name,
+        count: 1
+        }
+    }
+    save();
+    showMiniCart()
+}
+
+
+  
+function save(){
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+  
+  
+function checkCard(){
+    if (localStorage.getItem('cart')!=null){
+        cart = JSON.parse(localStorage.getItem('cart'));
+    }
+}
+  
+  
+function showMiniCart(){
+    let out='';
+    for(let i in cart){
+        out+=`
+        <tr>
+            <td><a data-art="${[i]}"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a></td>
+            <td>${cart[i].name}</td>
+            <td>${cart[i].price}</td>
+            <td><a data-art="${[i]}"class="minus btn waves-effect waves-light"><i class="material-icons">-</i></a>${cart[i].count}<a data-art="${[i]}"class="plus btn waves-effect waves-light"><i class="material-icons">+</i></a></td>
+            <td>${cart[i].price*cart[i].count}</td>
+        </tr>
+        `;
+    }
+    console.log(cart)
+    $('#mini-cart').html(out)
+    $('.delete').on('click',deleteGoods);
+    $('.plus').on('click',plusGoods);
+    $('.minus').on('click',minusGoods);
+  }
+
+function plusGoods(){
+  let id = $(this).attr('data-art')
+  cart[id].count++;
+  save()
+  showMiniCart();
+}
+function minusGoods(){
+  let id = $(this).attr('data-art')
+  if (cart[id].count>1){
+    cart[id].count--;
   }
   else{
-    cart[articul] = 1;
+  delete cart[id]
   }
-  localStorage.setItem('cart', JSON.stringify(cart));
-  showMiniCart()
+  save()
+  showMiniCart();
 }
-function checkCard(){
-  if (localStorage.getItem('cart')!=null){
-    cart = JSON.parse(localStorage.getItem('cart'));
-  }
+function deleteGoods(){
+  let id = $(this).attr('data-art');
+  delete cart[id];
+  save()
+  showMiniCart();
 }
-function showMiniCart(){
-  var out='';
-  for(var i in cart){
-    out+='<p>'+i+cart[i]+'</p>';
-  }
-  $('#mini-cart').html(out)
-}
+
+  

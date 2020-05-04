@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, open);
+    let elems = document.querySelectorAll('.sidenav');
+    let instances = M.Sidenav.init(elems, open);
   });
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, open);
+    let elems = document.querySelectorAll('.modal');
+    let instances = M.Modal.init(elems, open);
   });
   'use strict';
   let head = document.head,
@@ -44,65 +44,62 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("stat").setAttribute('checked','checked');
   }
 
-var cart={}; 
- 
-$.getJSON('goods.json',function(data){
-  var goods=data;
-  checkCard();
-  showCart();
 
-  function showCart(){
-    var out='';
-    if($.isEmptyObject(cart)){
-      out+='<p>Cart is Empty</p>';
-      $('#myCart').html(out);
-    }
-    else{
-      for(var key in cart){
-        out+='<a data-art="'+key+'"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a>'
-        out+=goods[key].name;
-        out+='<a data-art="'+key+'"class="minus btn waves-effect waves-light"><i class="material-icons">-</i></a>'
-        out+=cart[key];
-        out+='<a data-art="'+key+'"class="plus btn waves-effect waves-light"><i class="material-icons">add</i></a>'
-        out+=cart[key]*goods[key].cost;
-        out+='<br>'
+cart = {};
+
+checkCart();
+showCart();
+
+function checkCart(){
+    if (localStorage.getItem('cart')!=null){
+        cart = JSON.parse(localStorage.getItem('cart'));
       }
-    $('#myCart').html(out);
+}
+
+function save(){
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+
+function showCart(){
+    let out='';
+    for(let i in cart){
+        out+=`
+        <tr>
+            <td><a data-art="${[i]}"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a></td>
+            <td>${cart[i].name}</td>
+            <td>${cart[i].price}</td>
+            <td><a data-art="${[i]}"class="minus btn waves-effect waves-light"><i class="material-icons">-</i></a>${cart[i].count}<a data-art="${[i]}"class="plus btn waves-effect waves-light"><i class="material-icons">+</i></a></td>
+            <td>${cart[i].price*cart[i].count}</td>
+        </tr>
+        `;
+    }
+    $('#cart').html(out);
     $('.plus').on('click',plusGoods);
     $('.minus').on('click',minusGoods);
     $('.delete').on('click',deleteGoods);
-  }
 }
-  function plusGoods(){
-    var articale =$(this).attr('data-art');
-    cart[articale]++;
-    Save();
+
+function plusGoods(){
+    let id = $(this).attr('data-art')
+    cart[id].count++;
+    save()
     showCart();
   }
   function minusGoods(){
-    var articale =$(this).attr('data-art');
-    if(cart[articale]>1){
-      cart[articale]--;
+    let id = $(this).attr('data-art')
+    if (cart[id].count>1){
+      cart[id].count--;
     }
-    else {
-      delete cart[articale];
+    else{
+    delete cart[id]
     }
-    Save();
+    save()
     showCart();
   }
   function deleteGoods(){
-    var articale =$(this).attr('data-art');
-    delete cart[articale];
-    Save();
+    let id = $(this).attr('data-art');
+    delete cart[id];
+    save()
     showCart();
   }
-})
-
-function checkCard(){
-  if (localStorage.getItem('cart')!=null){
-    cart = JSON.parse(localStorage.getItem('cart'));
-  }
-}
-function Save(){
-  localStorage.setItem('cart', JSON.stringify(cart));
-}
+  

@@ -8,6 +8,7 @@
       <link type="text/css" rel="stylesheet" href="css/dark.css">
       <script src="https://kit.fontawesome.com/cd7f012803.js" crossorigin="anonymous"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.min.js"></script>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
@@ -50,21 +51,36 @@
         </nav>
         </div>
       </header>
-      <main>
-        
+      <main>  
         <div class="fixed-action-btn">
           <a class="btn-floating btn-large modal-trigger blue" href="#modal1">
             <i class="large material-icons">shopping_cart</i>
           </a>
         </div>
         <div id="modal1" class="modal bottom-sheet">
-          <div id="mini-cart" class="modal-content">
-            
-          </div>
+          <div class="table-responsive">
+            <table class="responsive-table highlight">
+              <thead>
+                <tr>
+                    <th></th>
+                    <th>Название</th>
+                    <th>Цена</th>
+                    <th>Количество</th>
+                    <th>Сумма</th>
+                </tr>
+              </thead>    
+              <tbody id="mini-cart">
+  
+              </tbody>
+            </table>
+        </div>
+        <a class="btn btn-info" href="Cart.html">Оформить заказ</a>
+    </div>
           <div class="modal-footer">
             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
           </div>
         </div>
+        
         <section class="sec1">
           <div class="container">
             <div class="row">
@@ -72,8 +88,10 @@
               
               </div>
             </div>
+            <ul id="pagination" class="pagination center">
+            </ul>
           </div>
-        </section>
+        </section>       
       </main>
         <footer class="page-footer">
           <div class="container">

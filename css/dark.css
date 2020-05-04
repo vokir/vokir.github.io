@@ -296,3 +296,35 @@ nav ul li.active {
 .blue {
     background-color: #3346d1 !important;
 }
+.red{
+    background-color: #3346d1 !important;
+}
+.card .card-image img {
+    width: auto;
+    margin: auto;
+    padding: 20px 0;
+}
+.minus,.plus,.delete{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+.minus i{
+    position: absolute;
+    top:-9px;
+    left: 0;
+    right: 0;
+}
+.plus i{
+    position: absolute;
+    top:-8px;
+    left: 0;
+    right: 0;
+}
+.delete i{
+    position: absolute;
+    top:-5px;
+    left: 0;
+    right: 0;
+}
+

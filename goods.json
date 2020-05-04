@@ -1,62 +1,563 @@
 {
     "1":{
-        "name":"Диван",
-        "cost":"3999",
-        "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
-    },
-    "2":{
-        "name":"Кресло",
-        "cost":"499",
-        "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
-    },
-    "3":{
-        "name":"Стол",
-        "cost":"1999",
-        "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
-    },
-    "4":{
-        "name":"Ламинат",
-        "cost":"1399",
-        "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
-    },
-    "5":{
-        "name":"Обои",
+        "id": 1,
+        "name":"lorem1",
         "cost":"199",
         "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
+        "img":"images/pizza-slice.png"
+    },
+    "2":{
+        "id": 2,
+        "name":"lorem2",
+        "cost":"149",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "3":{
+        "id": 3,
+        "name":"lorem3",
+        "cost":"99",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "4":{
+        "id": 4,
+        "name":"lorem4",
+        "cost":"1399",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "5":{
+        "id": 5,
+        "name":"lorem5",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
     },
     "6":{
-        "name":"Дверь",
+        "id": 6,
+        "name":"lorem6",
         "cost":"3499",
         "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
+        "img":"images/pizza-slice.png"
     },
     "7":{
-        "name":"окна",
+        "id": 7,
+        "name":"lorem7",
         "cost":"5999",
         "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
+        "img":"images/pizza-slice.png"
     },
     "8":{
-        "name":"Занавески",
+        "id": 8,
+        "name":"lorem8",
         "cost":"799",
         "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
+        "img":"images/pizza-slice.png"
     },
     "9":{
-        "name":"Ковер",
+        "id": 9,
+        "name":"lorem9",
         "cost":"1499",
         "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
+        "img":"images/pizza-slice.png"
     },
     "10":{
-        "name":"Линолеум",
+        "id": 10,
+        "name":"lorem10",
         "cost":"1999",
         "description":"bla-bla-bla",
-        "img":"images/sofa.jpg"
+        "img":"images/pizza-slice.png"
+    },
+    "11":{
+        "id": 11,
+        "name":"lorem11",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "12":{
+        "id": 12,
+        "name":"lorem12",
+        "cost":"149",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "13":{
+        "id": 13,
+        "name":"lorem13",
+        "cost":"99",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "14":{
+        "id": 14,
+        "name":"lorem14",
+        "cost":"1399",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "15":{
+        "id": 15,
+        "name":"lorem15",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "16":{
+        "id": 16,
+        "name":"lorem16",
+        "cost":"3499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "17":{
+        "id": 17,
+        "name":"lorem17",
+        "cost":"5999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "18":{
+        "id": 18,
+        "name":"lorem18",
+        "cost":"799",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "19":{
+        "id": 19,
+        "name":"lorem19",
+        "cost":"1499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "20":{
+        "id": 20,
+        "name":"lorem20",
+        "cost":"1999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "21":{
+        "id": 21,
+        "name":"lorem21",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "22":{
+        "id": 22,
+        "name":"lorem22",
+        "cost":"149",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "23":{
+        "id": 23,
+        "name":"lorem23",
+        "cost":"99",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "24":{
+        "id": 24,
+        "name":"lorem24",
+        "cost":"1399",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "25":{
+        "id": 25,
+        "name":"lorem25",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "26":{
+        "id": 26,
+        "name":"lorem26",
+        "cost":"3499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "27":{
+        "id": 27,
+        "name":"lorem27",
+        "cost":"5999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "28":{
+        "id": 28,
+        "name":"lorem28",
+        "cost":"799",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "29":{
+        "id": 29,
+        "name":"lorem29",
+        "cost":"1499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "30":{
+        "id": 30,
+        "name":"lorem30",
+        "cost":"1999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "31":{
+        "id": 31,
+        "name":"lorem31",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "32":{
+        "id": 32,
+        "name":"lorem32",
+        "cost":"149",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "33":{
+        "id": 33,
+        "name":"lorem33",
+        "cost":"99",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "34":{
+        "id": 34,
+        "name":"lorem34",
+        "cost":"1399",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "35":{
+        "id": 35,
+        "name":"lorem35",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "36":{
+        "id": 36,
+        "name":"lorem36",
+        "cost":"3499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "37":{
+        "id": 37,
+        "name":"lorem37",
+        "cost":"5999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "38":{
+        "id": 38,
+        "name":"lorem38",
+        "cost":"799",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "39":{
+        "id": 39,
+        "name":"lorem39",
+        "cost":"1499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "40":{
+        "id": 40,
+        "name":"lorem40",
+        "cost":"1999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "41":{
+        "id": 41,
+        "name":"lorem41",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "42":{
+        "id": 42,
+        "name":"lorem42",
+        "cost":"149",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "43":{
+        "id": 43,
+        "name":"lorem43",
+        "cost":"99",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "44":{
+        "id": 44,
+        "name":"lorem44",
+        "cost":"1399",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "45":{
+        "id": 45,
+        "name":"lorem45",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "46":{
+        "id": 46,
+        "name":"lorem46",
+        "cost":"3499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "47":{
+        "id": 47,
+        "name":"lorem47",
+        "cost":"5999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "48":{
+        "id": 48,
+        "name":"lorem48",
+        "cost":"799",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "49":{
+        "id": 49,
+        "name":"lorem49",
+        "cost":"1499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "50":{
+        "id": 50,
+        "name":"lorem50",
+        "cost":"1999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "51":{
+        "id": 51,
+        "name":"lorem51",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "52":{
+        "id": 52,
+        "name":"lorem52",
+        "cost":"149",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "53":{
+        "id": 53,
+        "name":"lorem53",
+        "cost":"99",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "54":{
+        "id": 54,
+        "name":"lorem54",
+        "cost":"1399",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "55":{
+        "id": 55,
+        "name":"lorem55",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "56":{
+        "id": 56,
+        "name":"lorem56",
+        "cost":"3499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "57":{
+        "id": 57,
+        "name":"lorem57",
+        "cost":"5999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "58":{
+        "id": 58,
+        "name":"lorem58",
+        "cost":"799",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "59":{
+        "id": 59,
+        "name":"lorem59",
+        "cost":"1499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "60":{
+        "id": 60,
+        "name":"lorem60",
+        "cost":"1999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "61":{
+        "id": 61,
+        "name":"lorem61",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "62":{
+        "id": 62,
+        "name":"lorem62",
+        "cost":"149",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "63":{
+        "id": 63,
+        "name":"lorem63",
+        "cost":"99",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "64":{
+        "id": 64,
+        "name":"lorem64",
+        "cost":"1399",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "65":{
+        "id": 65,
+        "name":"lorem65",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "66":{
+        "id": 66,
+        "name":"lorem66",
+        "cost":"3499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "67":{
+        "id": 67,
+        "name":"lorem67",
+        "cost":"5999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "68":{
+        "id": 68,
+        "name":"lorem68",
+        "cost":"799",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "69":{
+        "id": 69,
+        "name":"lorem69",
+        "cost":"1499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "70":{
+        "id": 70,
+        "name":"lorem70",
+        "cost":"1999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "71":{
+        "id": 71,
+        "name":"lorem71",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "72":{
+        "id": 72,
+        "name":"lorem72",
+        "cost":"149",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "73":{
+        "id": 73,
+        "name":"lorem73",
+        "cost":"99",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "74":{
+        "id": 74,
+        "name":"lorem74",
+        "cost":"1399",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "75":{
+        "id": 75,
+        "name":"lorem75",
+        "cost":"199",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "76":{
+        "id": 76,
+        "name":"lorem76",
+        "cost":"3499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "77":{
+        "id": 77,
+        "name":"lorem77",
+        "cost":"5999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "78":{
+        "id": 78,
+        "name":"lorem78",
+        "cost":"799",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "79":{
+        "id": 79,
+        "name":"lorem79",
+        "cost":"1499",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
+    },
+    "80":{
+        "id": 80,
+        "name":"lorem80",
+        "cost":"1999",
+        "description":"bla-bla-bla",
+        "img":"images/pizza-slice.png"
     }
+    
 }

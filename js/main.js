@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems, 334);
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, open);
+  });
   'use strict';
   let head = document.head,
       link = document.createElement('link');
@@ -73,3 +77,21 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("stat").setAttribute('checked','checked');
   }
   
+
+  var cart={};
+  $('document').ready(function(){
+    checkCard();
+    showMiniCart();
+});
+function checkCard(){
+  if (localStorage.getItem('cart')!=null){
+    cart = JSON.parse(localStorage.getItem('cart'));
+  }
+}
+function showMiniCart(){
+  var out='';
+  for(var i in cart){
+    out+='<p>'+i+cart[i]+'</p>';
+  }
+  $('#mini-cart').html(out)
+}
