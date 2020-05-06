@@ -4,6 +4,9 @@
 main {
     flex: 1 0 auto;
   }
+.shop{
+    background-color: #fff;
+}
 body{
     display: flex;
     min-height: 100vh;
@@ -47,6 +50,7 @@ nav ul li.active {
 .background{
     background-color: #212121;
 }
+
 .btn {
     background-color: #212121;
     border: 1px solid #3c4043;
@@ -235,7 +239,7 @@ nav ul li.active {
     transition: all .2s ease-in-out;
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-  }
+}
 .single i{
     margin-top: 10px;
 }
@@ -327,4 +331,18 @@ nav ul li.active {
     left: 0;
     right: 0;
 }
-
+.pagination li.active {
+    background-color: #3345cf;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    
+    margin: .5rem 1em 2.5rem 1em;
+    transition: all .2s ease-in-out;
+}
+.card:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+}

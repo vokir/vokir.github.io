@@ -48,31 +48,59 @@ document.addEventListener('DOMContentLoaded', function() {
 cart = {};
 
 checkCart();
-showCart();
 
 function checkCart(){
-    if (localStorage.getItem('cart')!=null){
-        cart = JSON.parse(localStorage.getItem('cart'));
-      }
+  let cartTitle = document.querySelector('#cart-title')
+  let html = document.createElement('p')
+  let b = document.querySelector('#b')
+  let btn = document.createElement('a')
+  cart = JSON.parse(localStorage.getItem('cart'));
+  if(localStorage.getItem('cart') == "{}"){
+    html.innerHTML = "Корзина товаров пуста"
+    b.remove(btn)
+  }
+  else if(localStorage.getItem('cart') == null){
+    html.innerHTML = "Корзина товаров пуста"
+    b.remove(btn)
+  }
+  else{
+    showCart()
+    html.innerHTML = "Товары в заказе"
+    btn.innerHTML = "Оформить заказ"
+    btn.classList.add('btn')
+    btn.classList.add('btn-info')
+  }
+  cartTitle.prepend(html)
+  b.appendChild(btn)
 }
 
 function save(){
-    localStorage.setItem('cart', JSON.stringify(cart));
+  localStorage.setItem('cart', JSON.stringify(cart));
 }
-
 function showCart(){
     let out='';
     for(let i in cart){
         out+=`
-        <tr>
+        <thead>
+          <tr>
+           <th></th>
+            <th>Название</th>
+            <th>Цена</th>
+            <th>Количество</th>
+            th>Сумма</th>
+          </tr>
+        </thead>
+        <tbody>    
+          <tr>
             <td><a data-art="${[i]}"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a></td>
             <td>${cart[i].name}</td>
             <td>${cart[i].price}</td>
             <td><a data-art="${[i]}"class="minus btn waves-effect waves-light"><i class="material-icons">-</i></a>${cart[i].count}<a data-art="${[i]}"class="plus btn waves-effect waves-light"><i class="material-icons">+</i></a></td>
             <td>${cart[i].price*cart[i].count}</td>
-        </tr>
+          </tr>
+        </tbody>
         `;
-    }
+  }
     $('#cart').html(out);
     $('.plus').on('click',plusGoods);
     $('.minus').on('click',minusGoods);
@@ -101,5 +129,6 @@ function plusGoods(){
     delete cart[id];
     save()
     showCart();
+    window.location.reload();
   }
   

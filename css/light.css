@@ -13,7 +13,10 @@ nav ul a{
 }
 main {
     flex: 1 0 auto;
-  }
+}
+.shop{
+    background-color: #fff;
+}
 body{
     display: flex;
     min-height: 100vh;
@@ -63,6 +66,7 @@ nav .sidenav-trigger {
 .background{
     background-color: #3346d1;
 }
+
 .btn {
     background-color: #3346d1;
     border: none;
