@@ -47,46 +47,53 @@ document.addEventListener('DOMContentLoaded', function() {
 let goods = [];
 let cart = {}; 
 let count = 1;
-pageSize = 15;
+
+pageSize = 9;
+
 $('document').ready(function(){
     checkCard();
     showMiniCart();
-    show(items[1])
     pageActive(items[1])
+    show(items[1])
 });
-
 $.getJSON('goods.json', function(data){
   $.each(data, function(key, val) {
     goods.push(val);
     count++;
   });
 });
-console.log(goods)
 
 pagination = document.querySelector('#pagination')
 
 let countItems = Math.ceil(80/ pageSize);
 
 
-
 let items = [];
 let html = document.createElement('li')
   html.innerHTML = '<a href="#!"><i class="material-icons">chevron_left</i></a></li>';
   html.classList.add('disabled')
+  html.classList.add('prev')
+  $(html).attr("id", 1)
   pagination.appendChild(html)
   items.push(html)
 for (let i = 1; i<= countItems; i++){
   html = document.createElement('li')
   html.innerHTML = '<a href="#!">'+i+'</a>';
   html.classList.add('waves-effect')
+  html.classList.add('pages')
+  $(html).attr("id", i)
   pagination.appendChild(html)
   items.push(html)
 } 
   html = document.createElement('li')
   html.innerHTML = '<a href="#!"><i class="material-icons">chevron_right</i></a></li>';
   html.classList.add('waves-effect')
+  html.classList.add('next')
+  $(html).attr("id", countItems)
   pagination.appendChild(html)
   items.push(html)
+
+  
 
 function pageActive(item){
   let active = document.querySelector('#pagination li.active')
@@ -94,15 +101,72 @@ function pageActive(item){
     active.classList.remove('active');
   }
   item.classList.add('active');
+  whatBtn(item)
 }
-
+let btnN 
+let btnP 
+function whatBtn(item){
+  btnN = $(item).next();
+  btnN = btnN[0].id
+  btnP = $(item).prev();
+  btnP = btnP[0].id
+}
+function btnPrev(item){
+      item = items[btnP]
+      pageActive(item)
+      show(item)
+      if(items[btnN].id <= 2){
+        items[0].classList.add('disabled')
+        items[0].classList.remove('waves-effect')
+      }
+      else{
+        items[0].classList.remove('disabled')
+        items[0].classList.add('waves-effect')
+      }
+      if(items[btnP].id > countItems-2){
+        items[countItems+1].classList.add('disabled')
+        items[countItems+1].classList.remove('waves-effect')
+      }
+      else{
+        items[countItems+1].classList.remove('disabled')
+        items[countItems+1].classList.add('waves-effect')
+      }
+}
+function btnNext(item){
+      item = items[btnN]
+      pageActive(item)
+      show(item)
+      if(items[btnP].id >= 1){
+        items[0].classList.remove('disabled')
+        items[0].classList.add('waves-effect')
+      }
+      else{
+        items[0].classList.add('disabled')
+        items[0].classList.remove('waves-effect')
+      }
+      if(items[btnP].id > countItems-2){
+        items[countItems+1].classList.add('disabled')
+        items[countItems+1].classList.remove('waves-effect')
+      }
+      else{
+        items[countItems+1].classList.remove('disabled')
+        items[countItems+1].classList.add('waves-effect')
+      }
+}
 for(let item of items){
   item.addEventListener('click', function(){
-   
+    if(item.classList.contains('prev')){
+      btnPrev(item)
+    }
+    else if(item.classList.contains('next')){
+      btnNext(item)
+    }
+    else{
     pageActive(item)
     show(item)
-  
+    }
 })  
+
 function show(item){ 
   let pageNum = +item.firstChild.innerHTML;
   let start = (pageNum - 1) * pageSize;
@@ -131,6 +195,7 @@ function show(item){
   $("#goods").html(out)
   $('.add-to-cart').on('click', addToCart);
 }
+
 function addToCart(){
     let name = $(this).attr('data-name');
     let price = $(this).attr('data-price');
@@ -195,6 +260,7 @@ function plusGoods(){
   save()
   showMiniCart();
 }
+
 function minusGoods(){
   let id = $(this).attr('data-art')
   if (cart[id].count>1){
@@ -206,6 +272,7 @@ function minusGoods(){
   save()
   showMiniCart();
 }
+
 function deleteGoods(){
   let id = $(this).attr('data-art');
   delete cart[id];
