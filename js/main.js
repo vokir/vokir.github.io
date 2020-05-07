@@ -76,22 +76,3 @@ document.addEventListener('DOMContentLoaded', function() {
   if (localStorage.getItem('stat') == "true") {
     document.getElementById("stat").setAttribute('checked','checked');
   }
-  
-
-  var cart={};
-  $('document').ready(function(){
-    checkCard();
-    showMiniCart();
-});
-function checkCard(){
-  if (localStorage.getItem('cart')!=null){
-    cart = JSON.parse(localStorage.getItem('cart'));
-  }
-}
-function showMiniCart(){
-  var out='';
-  for(var i in cart){
-    out+='<p>'+i+cart[i]+'</p>';
-  }
-  $('#mini-cart').html(out)
-}

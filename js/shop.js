@@ -51,10 +51,10 @@ let count = 1;
 pageSize = 9;
 
 $('document').ready(function(){
-    checkCard();
-    showMiniCart();
-    pageActive(items[1])
-    show(items[1])
+  pageActive(items[1])
+  show(items[1])
+  checkCard();
+  showMiniCart(); 
 });
 $.getJSON('goods.json', function(data){
   $.each(data, function(key, val) {
@@ -115,43 +115,31 @@ function btnPrev(item){
       item = items[btnP]
       pageActive(item)
       show(item)
-      if(items[btnN].id <= 2){
-        items[0].classList.add('disabled')
-        items[0].classList.remove('waves-effect')
-      }
-      else{
-        items[0].classList.remove('disabled')
-        items[0].classList.add('waves-effect')
-      }
-      if(items[btnP].id > countItems-2){
-        items[countItems+1].classList.add('disabled')
-        items[countItems+1].classList.remove('waves-effect')
-      }
-      else{
-        items[countItems+1].classList.remove('disabled')
-        items[countItems+1].classList.add('waves-effect')
-      }
+      checkBTN()
+}
+function checkBTN(){
+  if(items[btnN].id <= 2){
+    items[0].classList.add('disabled')
+    items[0].classList.remove('waves-effect')
+  }
+  else{
+    items[0].classList.remove('disabled')
+    items[0].classList.add('waves-effect')
+  }
+  if(items[btnP].id > countItems-2){
+    items[countItems+1].classList.add('disabled')
+    items[countItems+1].classList.remove('waves-effect')
+  }
+  else{
+    items[countItems+1].classList.remove('disabled')
+    items[countItems+1].classList.add('waves-effect')
+  }
 }
 function btnNext(item){
       item = items[btnN]
       pageActive(item)
       show(item)
-      if(items[btnP].id >= 1){
-        items[0].classList.remove('disabled')
-        items[0].classList.add('waves-effect')
-      }
-      else{
-        items[0].classList.add('disabled')
-        items[0].classList.remove('waves-effect')
-      }
-      if(items[btnP].id > countItems-2){
-        items[countItems+1].classList.add('disabled')
-        items[countItems+1].classList.remove('waves-effect')
-      }
-      else{
-        items[countItems+1].classList.remove('disabled')
-        items[countItems+1].classList.add('waves-effect')
-      }
+      checkBTN()
 }
 for(let item of items){
   item.addEventListener('click', function(){
@@ -164,6 +152,7 @@ for(let item of items){
     else{
     pageActive(item)
     show(item)
+    checkBTN()
     }
 })  
 
