@@ -57,32 +57,55 @@
             <i class="large material-icons">shopping_cart</i>
           </a>
         </div>
-        <div id="modal1" class="modal bottom-sheet">
-          <div class="table-responsive">
-            <table class="responsive-table centered highlight">
-              <thead>
-                <tr>
-                    <th></th>
-                    <th>Название</th>
-                    <th>Цена</th>
-                    <th>Количество</th>
-                    <th>Сумма</th>
-                </tr>
-              </thead>    
-              <tbody id="mini-cart">
-  
-              </tbody>
-            </table>
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <div class="table-responsive">
+              <table class="responsive-table highlight">
+                <thead>
+                  <tr>
+                      <th></th>
+                      <th>Название</th>
+                      <th>Цена</th>
+                      <th>Количество</th>
+                      <th>Сумма</th>
+                  </tr>
+                </thead>    
+                <tbody id="mini-cart">
+    
+                </tbody>
+              </table>
+            </div>
           </div>
           <div class="modal-footer">
-            <a class="btn btn-info" href="Cart.html">Оформить заказ</a>
+            <a class="btn btn-info" href="Cart.html">checkout</a>
           </div>
         </div>
-
         <section class="sec1">
-          <div class="container">
-            
+          <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+            </div>
+            <div class="carousel-item pic1 white-text" href="#one!">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Minima repudiandae et maxime necessitatibus reiciendis dolorum.</p>
+            </div>
+            <div class="carousel-item pic2 white-text" href="#two!">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Minima repudiandae et maxime necessitatibus reiciendis dolorum.</p>
+            </div>
+            <div class="carousel-item pic3 white-text" href="#three!">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Minima repudiandae et maxime necessitatibus reiciendis dolorum.</p>
+            </div>
+            <div class="carousel-item pic4 white-text" href="#four!">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Minima repudiandae et maxime necessitatibus reiciendis dolorum.</p>
+            </div>
           </div>
+
         </section>
         <section class="sec2">
           <div class="container">
@@ -91,8 +114,9 @@
               
               </div>
             </div>
-            <ul id="pagination" class="pagination center">
-            </ul>
+            <div class="pages">
+              <ul id="pagination" class="pagination center"></ul>
+            </div>     
           </div>
         </section>       
       </main>

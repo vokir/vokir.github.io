@@ -6,6 +6,15 @@ document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelectorAll('.modal');
     let instances = M.Modal.init(elems, open);
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, {
+      fullWidth: true,
+      indicators: true
+    });
+  });
+  
+  
 
   'use strict';
   let head = document.head,
