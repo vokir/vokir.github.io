@@ -133,6 +133,10 @@ banner5 = document.getElementById('banner5')
 banner6 = document.getElementById('banner6')
 banner7 = document.getElementById('banner7')
 banner8 = document.getElementById('banner8')
+banner41 = document.getElementById('banner41')
+banner51 = document.getElementById('banner51')
+banner61 = document.getElementById('banner61')
+banner71 = document.getElementById('banner71')
 
 $('#elem1').on('click',handler1);
 $('#elem2').on('click',handler2);
@@ -145,6 +149,10 @@ $('#banner4').on('click',handler4);
 $('#banner5').on('click',handler5);
 $('#banner6').on('click',handler6);
 $('#banner7').on('click',handler7);
+$('#banner41').on('click',handler4);
+$('#banner51').on('click',handler5);
+$('#banner61').on('click',handler6);
+$('#banner71').on('click',handler7);
 $('#banner8').on('click',handler8);
 
 

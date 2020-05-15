@@ -401,26 +401,26 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     border-radius: 0 0 5px 5px;
 }
 .pic1{
-    background-image: url(../images/1652.jpg);
+    background-image: url(../images/673.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
   }
   .pic2{
-      background-image: url(../images/1549.jpg);
+      background-image: url(../images/786.jpg);
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: cover;
   }
   .pic3{
-      background-image: url(../images/1652.jpg);
+      background-image: url(../images/1450.jpg);
       background-color: #3c4043;
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: center;
       background-size: cover;
   }
   .pic4{
-      background-image: url(../images/1549.jpg);
+      background-image: url(../images/1753.jpg);
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: cover;
