@@ -1,563 +1,465 @@
 {
     "1":{
         "id": 1,
-        "name":"bed1",
+        "name":"bookcase1",
         "cost":"199",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "2":{
         "id": 2,
-        "name":"bed2",
+        "name":"bookcase2",
         "cost":"149",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "3":{
         "id": 3,
-        "name":"bed3",
+        "name":"bookcase3",
         "cost":"99",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "4":{
         "id": 4,
-        "name":"bed4",
+        "name":"bookcase4",
         "cost":"1399",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "5":{
         "id": 5,
-        "name":"bed5",
+        "name":"bookcase5",
         "cost":"199",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "6":{
         "id": 6,
-        "name":"bed6",
+        "name":"bookcase6",
         "cost":"3499",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "7":{
         "id": 7,
-        "name":"bed7",
+        "name":"bookcase7",
         "cost":"5999",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "8":{
         "id": 8,
-        "name":"bed8",
+        "name":"bookcase8",
         "cost":"799",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "9":{
         "id": 9,
-        "name":"bed9",
+        "name":"bookcase9",
         "cost":"1499",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "10":{
         "id": 10,
-        "name":"bed10",
+        "name":"bookcase10",
         "cost":"1999",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "11":{
         "id": 11,
-        "name":"bed11",
+        "name":"bookcase11",
         "cost":"199",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "12":{
         "id": 12,
-        "name":"bed12",
+        "name":"bookcase12",
         "cost":"149",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "13":{
         "id": 13,
-        "name":"bed13",
+        "name":"bookcase13",
         "cost":"99",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "14":{
         "id": 14,
-        "name":"bed14",
+        "name":"bookcase14",
         "cost":"1399",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "15":{
         "id": 15,
-        "name":"bed15",
+        "name":"bookcase15",
         "cost":"199",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "16":{
         "id": 16,
-        "name":"bed16",
+        "name":"bookcase16",
         "cost":"3499",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "17":{
         "id": 17,
-        "name":"bed17",
+        "name":"bookcase17",
         "cost":"5999",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "18":{
         "id": 18,
-        "name":"bed18",
+        "name":"bookcase18",
         "cost":"799",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "19":{
         "id": 19,
-        "name":"bed19",
+        "name":"bookcase19",
         "cost":"1499",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "20":{
         "id": 20,
-        "name":"bed20",
+        "name":"bookcase20",
         "cost":"1999",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "21":{
         "id": 21,
-        "name":"bed21",
+        "name":"bookcase21",
         "cost":"199",
         "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "22":{
         "id": 22,
-        "name":"bed22",
+        "name":"bookcase22",
         "cost":"149",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "23":{
         "id": 23,
-        "name":"bed23",
+        "name":"bookcase23",
         "cost":"99",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "24":{
         "id": 24,
-        "name":"bed24",
+        "name":"bookcase24",
         "cost":"1399",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "25":{
         "id": 25,
-        "name":"bed25",
+        "name":"bookcase25",
         "cost":"199",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "26":{
         "id": 26,
-        "name":"bed26",
+        "name":"bookcase26",
         "cost":"3499",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "27":{
         "id": 27,
-        "name":"bed27",
+        "name":"bookcase27",
         "cost":"5999",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "28":{
         "id": 28,
-        "name":"bed28",
+        "name":"bookcase28",
         "cost":"799",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "29":{
         "id": 29,
-        "name":"bed29",
+        "name":"bookcase29",
         "cost":"1499",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "30":{
         "id": 30,
-        "name":"bed30",
+        "name":"bookcase30",
         "cost":"1999",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "31":{
         "id": 31,
-        "name":"bed31",
+        "name":"bookcase31",
         "cost":"199",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "32":{
         "id": 32,
-        "name":"bed32",
+        "name":"bookcase32",
         "cost":"149",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "33":{
         "id": 33,
-        "name":"bed33",
+        "name":"bookcase33",
         "cost":"99",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "34":{
         "id": 34,
-        "name":"bed34",
+        "name":"bookcase34",
         "cost":"1399",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "35":{
         "id": 35,
-        "name":"bed35",
+        "name":"bookcase35",
         "cost":"199",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "36":{
         "id": 36,
-        "name":"bed36",
+        "name":"bookcase36",
         "cost":"3499",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "37":{
         "id": 37,
-        "name":"bed37",
+        "name":"bookcase37",
         "cost":"5999",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "38":{
         "id": 38,
-        "name":"bed38",
+        "name":"bookcase38",
         "cost":"799",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "39":{
         "id": 39,
-        "name":"bed39",
+        "name":"bookcase39",
         "cost":"1499",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "40":{
         "id": 40,
-        "name":"bed40",
+        "name":"bookcase40",
         "cost":"1999",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "41":{
         "id": 41,
-        "name":"bed41",
+        "name":"bookcase41",
         "cost":"199",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "42":{
         "id": 42,
-        "name":"bed42",
+        "name":"bookcase42",
         "cost":"149",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "43":{
         "id": 43,
-        "name":"bed43",
+        "name":"bookcase43",
         "cost":"99",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "44":{
         "id": 44,
-        "name":"bed44",
+        "name":"bookcase44",
         "cost":"1399",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "45":{
         "id": 45,
-        "name":"bed45",
+        "name":"bookcase45",
         "cost":"199",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "46":{
         "id": 46,
-        "name":"bed46",
+        "name":"bookcase46",
         "cost":"3499",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "47":{
         "id": 47,
-        "name":"bed47",
+        "name":"bookcase47",
         "cost":"5999",
         "description":"eeq",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "48":{
         "id": 48,
-        "name":"bed48",
+        "name":"bookcase48",
         "cost":"799",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "49":{
         "id": 49,
-        "name":"bed49",
+        "name":"bookcase49",
         "cost":"1499",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "50":{
         "id": 50,
-        "name":"bed50",
+        "name":"bookcase50",
         "cost":"1999",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "51":{
         "id": 51,
-        "name":"bed51",
+        "name":"bookcase51",
         "cost":"199",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "52":{
         "id": 52,
-        "name":"bed52",
+        "name":"bookcase52",
         "cost":"149",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "53":{
         "id": 53,
-        "name":"bed53",
+        "name":"bookcase53",
         "cost":"99",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "54":{
         "id": 54,
-        "name":"bed54",
+        "name":"bookcase54",
         "cost":"1399",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "55":{
         "id": 55,
-        "name":"bed55",
+        "name":"bookcase55",
         "cost":"199",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "56":{
         "id": 56,
-        "name":"bed56",
+        "name":"bookcase56",
         "cost":"3499",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "57":{
         "id": 57,
-        "name":"bed57",
+        "name":"bookcase57",
         "cost":"5999",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "58":{
         "id": 58,
-        "name":"bed58",
+        "name":"bookcase58",
         "cost":"799",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "59":{
         "id": 59,
-        "name":"bed59",
+        "name":"bookcase59",
         "cost":"1499",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "60":{
         "id": 60,
-        "name":"bed60",
+        "name":"bookcase60",
         "cost":"1999",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "61":{
         "id": 61,
-        "name":"bed61",
+        "name":"bookcase61",
         "cost":"199",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "62":{
         "id": 62,
-        "name":"bed62",
+        "name":"bookcase62",
         "cost":"149",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "63":{
         "id": 63,
-        "name":"bed63",
+        "name":"bookcase63",
         "cost":"99",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "64":{
         "id": 64,
-        "name":"bed64",
+        "name":"bookcase64",
         "cost":"1399",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "65":{
         "id": 65,
-        "name":"bed65",
+        "name":"bookcase65",
         "cost":"199",
         "description":"nnn",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     },
     "66":{
         "id": 66,
-        "name":"bed66",
+        "name":"bookcase66",
         "cost":"3499",
         "description":"nnn",
-        "img":"images/bed.png"
-    },
-    "67":{
-        "id": 67,
-        "name":"bed67",
-        "cost":"5999",
-        "description":"nnn",
-        "img":"images/bed.png"
-    },
-    "68":{
-        "id": 68,
-        "name":"bed68",
-        "cost":"799",
-        "description":"nnn",
-        "img":"images/bed.png"
-    },
-    "69":{
-        "id": 69,
-        "name":"bed69",
-        "cost":"1499",
-        "description":"nnn",
-        "img":"images/bed.png"
-    },
-    "70":{
-        "id": 70,
-        "name":"bed70",
-        "cost":"1999",
-        "description":"nnn",
-        "img":"images/bed.png"
-    },
-    "71":{
-        "id": 71,
-        "name":"bed71",
-        "cost":"199",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "72":{
-        "id": 72,
-        "name":"bed72",
-        "cost":"149",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "73":{
-        "id": 73,
-        "name":"bed73",
-        "cost":"99",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "74":{
-        "id": 74,
-        "name":"bed74",
-        "cost":"1399",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "75":{
-        "id": 75,
-        "name":"bed75",
-        "cost":"199",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "76":{
-        "id": 76,
-        "name":"bed76",
-        "cost":"3499",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "77":{
-        "id": 77,
-        "name":"bed77",
-        "cost":"5999",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "78":{
-        "id": 78,
-        "name":"bed78",
-        "cost":"799",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "79":{
-        "id": 79,
-        "name":"bed79",
-        "cost":"1499",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
-    },
-    "80":{
-        "id": 80,
-        "name":"bed80",
-        "cost":"1999",
-        "description":"bla-bla-bla",
-        "img":"images/bed.png"
+        "img":"images/bookcase.png"
     }
     
 }

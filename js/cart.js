@@ -79,17 +79,19 @@ function save(){
 }
 function showCart(){
     let out='';
+    let total = 0;
+    out+= `        <thead>
+    <tr>
+     <th></th>
+      <th>Название</th>
+      <th>Цена</th>
+      <th>Количество</th>
+      <th>Сумма</th>
+    </tr>
+  </thead>`
     for(let i in cart){
         out+=`
-        <thead>
-          <tr>
-           <th></th>
-            <th>Название</th>
-            <th>Цена</th>
-            <th>Количество</th>
-            th>Сумма</th>
-          </tr>
-        </thead>
+
         <tbody>    
           <tr>
             <td><a data-art="${[i]}"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a></td>
@@ -100,7 +102,19 @@ function showCart(){
           </tr>
         </tbody>
         `;
-  }
+        total = total + (cart[i].price*cart[i].count)
+  } 
+    out+=`
+    <tbody>    
+      <tr>
+        <td>Сумма заказа</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>${total}</td>
+      </tr>
+    </tbody>
+    `
     $('#cart').html(out);
     $('.plus').on('click',plusGoods);
     $('.minus').on('click',minusGoods);
