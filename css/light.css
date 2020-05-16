@@ -620,13 +620,15 @@ blockquote{
     border-left: 5px solid #fff;
 }
 .carousel-fixed-item{
-    height: 500px !important;
+    height: 570px !important;
 }
 .about5{
     background-color: #fff;
 }
 
-
+.tp{
+    padding: 0 24px;
+}
 @media (min-width: 992px) {
     .timeline-centered,
     .timeline-centered .timeline-item,

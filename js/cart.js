@@ -79,8 +79,10 @@ function save(){
 }
 function showCart(){
     let out='';
+    let out1='';
+    let out2='';
     let total = 0;
-    out+= `        <thead>
+    out1+= `  
     <tr>
      <th></th>
       <th>Название</th>
@@ -88,11 +90,11 @@ function showCart(){
       <th>Количество</th>
       <th>Сумма</th>
     </tr>
-  </thead>`
+`
     for(let i in cart){
         out+=`
 
-        <tbody>    
+ 
           <tr>
             <td><a data-art="${[i]}"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a></td>
             <td>${cart[i].name}</td>
@@ -100,22 +102,24 @@ function showCart(){
             <td><a data-art="${[i]}"class="minus btn waves-effect waves-light"><i class="material-icons">-</i></a>${cart[i].count}<a data-art="${[i]}"class="plus btn waves-effect waves-light"><i class="material-icons">+</i></a></td>
             <td>${cart[i].price*cart[i].count}</td>
           </tr>
-        </tbody>
+
         `;
         total = total + (cart[i].price*cart[i].count)
   } 
-    out+=`
-    <tbody>    
+    out2+=`
+  
       <tr>
         <td>Сумма заказа</td>
         <td></td>
         <td></td>
         <td></td>
-        <td>${total}</td>
+        <td style="padding: 18px; text-align: center">${total}</td>
       </tr>
-    </tbody>
+  
     `
+    $('#cartHead').html(out1);
     $('#cart').html(out);
+    $('#carttotal').html(out2);
     $('.plus').on('click',plusGoods);
     $('.minus').on('click',minusGoods);
     $('.delete').on('click',deleteGoods);

@@ -158,6 +158,7 @@ $('#banner8').on('click',handler8);
 
 function showMiniCart(){
   let out='';
+  let out1='';
   let total = 0;
   for(let i in cart){
       out+=`
@@ -171,16 +172,17 @@ function showMiniCart(){
       `;   
       total = total + (cart[i].price*cart[i].count)
   }
-  out+=`
+  out1+=`
   <tr>
     <td>Сумма заказа</td>
     <td></td>
     <td></td>
     <td></td>
-    <td>${total}</td>
+    <td style="padding: 12px; text-align: center">${total}</td>
   </tr>
   `; 
   $('#mini-cart').html(out)
+  $('#carttotal').html(out1)
   $('.delete').on('click',deleteGoods);
   $('.plus').on('click',plusGoods);
   $('.minus').on('click',minusGoods);
