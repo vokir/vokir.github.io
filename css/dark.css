@@ -13,6 +13,10 @@ body{
     flex-direction: column;
     background-color: #212121;
 }
+.video{
+    padding: 0 !important;
+}
+
 .switch label .lever {
     background-color: #3c4043;
 }
