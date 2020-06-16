@@ -80,49 +80,39 @@ function save(){
 function showCart(){
     let out='';
     let out1='';
-    let out2='';
     let total = 0;
-    out1+= `  
-    <tr>
-     <th></th>
-      <th>Название</th>
-      <th>Цена</th>
-      <th>Количество</th>
-      <th>Сумма</th>
-    </tr>
-`
     for(let i in cart){
-        out+=`
-
- 
-          <tr>
-            <td><a data-art="${[i]}"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a></td>
-            <td>${cart[i].name}</td>
-            <td>${cart[i].price}</td>
-            <td><a data-art="${[i]}"class="minus btn waves-effect waves-light"><i class="material-icons">-</i></a>${cart[i].count}<a data-art="${[i]}"class="plus btn waves-effect waves-light"><i class="material-icons">+</i></a></td>
-            <td>${cart[i].price*cart[i].count}</td>
-          </tr>
-
-        `;
-        total = total + (cart[i].price*cart[i].count)
-  } 
-    out2+=`
-  
-      <tr>
-        <td>Сумма заказа</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td style="padding: 18px; text-align: center">${total}</td>
-      </tr>
-  
-    `
-    $('#cartHead').html(out1);
+      out+=`
+      <div class="row margen2 cart-items">
+        <div class="col l3 m3 s3 buscket-title">
+          <p>${cart[i].name}</p>
+        </div>
+        <div class="col l3 m3 s3 price-item">
+          <p>${cart[i].price}</p>
+        </div>
+          <div class="col l1 m1 s1 controlers">
+            <a data-art="${[i]}" class="minus"><i class="material-icons">chevron_left</i></a>
+          </div>
+          <div class="col l1 m1 s1 buscket-product">          
+            <p>${cart[i].count}</p>
+          </div>
+          <div class="col l1 m1 s1 controlers">
+            <a data-art="${[i]}" class="plus"><i class="material-icons">chevron_right</i></a>
+          </div>
+          <div class="col l3 m3 s3 cost-item">
+            <p>${cart[i].price*cart[i].count}</p>
+          </div>
+        </div>
+      `;   
+      total = total + (cart[i].price*cart[i].count)
+  }
+  out1+=`
+      <p class="textb">Total: <span class="badge">${total}</span></p>
+  `; 
     $('#cart').html(out);
-    $('#carttotal').html(out2);
+    $('.carttotal').html(out1);
     $('.plus').on('click',plusGoods);
     $('.minus').on('click',minusGoods);
-    $('.delete').on('click',deleteGoods);
 }
 
 function plusGoods(){
@@ -141,12 +131,5 @@ function plusGoods(){
     }
     save()
     showCart();
-  }
-  function deleteGoods(){
-    let id = $(this).attr('data-art');
-    delete cart[id];
-    save()
-    showCart();
-    window.location.reload();
   }
   

@@ -12,8 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.carousel');
   var instances = M.Carousel.init(elems, {
-    fullWidth: true,
-    indicators: true
+    fullWidth: true
   });
 });
 
@@ -160,30 +159,43 @@ function showMiniCart(){
   let out='';
   let out1='';
   let total = 0;
+  let count = '';
   for(let i in cart){
+    count++
       out+=`
-      <tr>
-          <td><a data-art="${[i]}"class="delete btn waves-effect waves-light"><i class="material-icons">delete</i></a></td>
-          <td>${cart[i].name}</td>
-          <td>${cart[i].price}</td>
-          <td><a data-art="${[i]}"class="minus btn waves-effect waves-light"><i class="material-icons">-</i></a>${cart[i].count}<a data-art="${[i]}"class="plus btn waves-effect waves-light"><i class="material-icons">+</i></a></td>
-          <td>${cart[i].price*cart[i].count}</td>
-      </tr>
+      <div class="row margen2 cart-items">
+        <div class="col l3 s12 m3 buscket-title">
+          <p>${cart[i].name}</p>
+        </div>
+        <div class="col l3 s12 m3 price-item">
+          <p>${cart[i].price}</p>
+        </div>
+          <div class="col l1 s2 push-s4 m1 controlers">
+            <a data-art="${[i]}" class="minus"><i class="material-icons">chevron_left</i></a>
+          </div>
+          <div class="col l1 s8 m1 buscket-product">          
+            <p>${cart[i].count}</p>
+          </div>
+          <div class="col l1 s2 pull-s4 m1 controlers">
+            <a data-art="${[i]}" class="plus"><i class="material-icons">chevron_right</i></a>
+          </div>
+          <div class="col l3 s12 m3 cost-item">
+            <p>${cart[i].price*cart[i].count}</p>
+          </div>
+        </div>
       `;   
       total = total + (cart[i].price*cart[i].count)
   }
   out1+=`
-  <tr>
-    <td>Сумма заказа</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td style="padding: 12px; text-align: center">${total}</td>
-  </tr>
+    <div class="fleft">
+      <p><i class="material-icons shopping-cart">shopping_cart</i><span class="badge">${count}</span></p>
+    </div>
+    <div class="fright">
+      <p class="textb">Total: <span class="badge">${total}</span></p>
+      </div>
   `; 
   $('#mini-cart').html(out)
   $('#carttotal').html(out1)
-  $('.delete').on('click',deleteGoods);
   $('.plus').on('click',plusGoods);
   $('.minus').on('click',minusGoods);
 }
@@ -207,12 +219,6 @@ function minusGoods(){
   showMiniCart();
 }
 
-function deleteGoods(){
-  let id = $(this).attr('data-art');
-  delete cart[id];
-  save()
-  showMiniCart();
-}
 
 function save(){
   localStorage.setItem('cart', JSON.stringify(cart));
