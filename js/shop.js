@@ -159,9 +159,8 @@ function showMiniCart(){
   let out='';
   let out1='';
   let total = 0;
-  let count = '';
+  let count = 0;
   for(let i in cart){
-    count++
       out+=`
       <div class="row margen2 cart-items">
         <div class="col l3 s12 m3 buscket-title">
@@ -184,6 +183,7 @@ function showMiniCart(){
           </div>
         </div>
       `;   
+      count = cart[i].count + count 
       total = total + (cart[i].price*cart[i].count)
   }
   out1+=`
