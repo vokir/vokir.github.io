@@ -13,6 +13,10 @@ body{
     flex-direction: column;
     background-color: #212121;
 }
+.video{
+    padding: 0 !important;
+}
+
 .switch label .lever {
     background-color: #3c4043;
 }
@@ -50,9 +54,7 @@ nav ul li.active {
 .background{
     background-color: #212121;
 }
-.modal .modal-footer{
-    text-align: center;
-}
+
 .btn {
     background-color: #212121;
     border: 1px solid #3c4043;
@@ -68,7 +70,6 @@ nav ul li.active {
 }
 .btn:hover{
     background-color: #3346d1;
-    color:#fff;
 }
 .home{
     max-width: 500px;
@@ -311,7 +312,29 @@ nav ul li.active {
     margin: auto;
     padding: 20px 0;
 }
-
+.minus,.plus,.delete{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+.minus i{
+    position: absolute;
+    top:-9px;
+    left: 0;
+    right: 0;
+}
+.plus i{
+    position: absolute;
+    top:-8px;
+    left: 0;
+    right: 0;
+}
+.delete i{
+    position: absolute;
+    top:-5px;
+    left: 0;
+    right: 0;
+}
 .pagination li.active {
     background-color: #3346d1;
 }
@@ -558,13 +581,7 @@ nav ul li.active {
     padding: 0 24px;
 }
 blockquote{
-    border-left: 5px solid #212121;
-}
-.carousel .indicators .indicator-item{
-    background-color: #9e9e9e;
-}
-.carousel .indicators .indicator-item.active{
-    background-color: #3346d1;
+    border-left: 5px solid #fff;
 }
 .carousel-fixed-item{
     height: 570px !important;
@@ -754,95 +771,11 @@ blockquote{
   .title-cent{
       text-align: center;
   }
-  .plus i{
-    padding: 12px 0;
-  }
-  .minus i{
-    padding: 12px 0;
-  }
-  .plus,.minus{
-    text-decoration: none;
-    cursor:pointer;
-    color: #212121;
-    display: inline-block;
-    overflow: hidden;
-    user-select: none;
-  }
-  .cart-items {
-    background-color: #fdfdfd;
-    padding: 10px 0;
-    text-align: center;
-    border-radius: 0.5em;
-    box-shadow: 0 0.25em 1.5em 0.25em rgba(0, 0, 0, 0.1);
-}
-.act{
-    background-color: #fff;
-    color: #000;
-    border: none;
-}
-.cart-items p{
-    padding: 10px 0;
-}
-.margen2{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-.controlers{
-    padding: 10px 0 !important;
-}
-.buscket-names{
-    text-align: center;
-    border-bottom: 1px solid #212121;
-}
-.fleft{
-    float: left;
-}
-.fright{
-    float: right;
-    font-weight: 700;
-}
-.fleft i{
-    font-size: 1.6rem;
-}
-.badge {
-    background-color: #3346d1;
-    font-weight: 400;
-    border-radius: 0.5em;
-    color: #fff !important;
-    display: inline-block;
-    vertical-align: middle;
-    white-space: nowrap;
-}
-.carttotal{
-    margin-bottom: 1em;
-}
-
 @media only screen and (max-width: 992px){
     .pagination li.pages {
         width: min-content;
     }
     .title-cent{
         text-align: left;
-    }
-}
-@media only screen and (max-width: 2000px){
-    .sec1{
-        display: block;
-    }
-}
-@media only screen and (max-width: 600px){
-    .sec1{
-        display: none;
-    }
-    .small-nav{
-        position: fixed;
-    }
-    .navbar-fixeds {
-        position: relative;
-    }
-}
-@media only screen and (max-width: 425px){
-    #b{
-        text-align: center;
     }
 }
