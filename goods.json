@@ -1,560 +1,560 @@
 {
     "1":{
         "id": 1,
-        "name":"bed1",
+        "name":"Кровать №1",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "2":{
         "id": 2,
-        "name":"bed2",
+        "name":"Кровать №2",
         "cost":"149",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "3":{
         "id": 3,
-        "name":"bed3",
+        "name":"Кровать №3",
         "cost":"99",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "4":{
         "id": 4,
-        "name":"bed4",
+        "name":"Кровать №4",
         "cost":"1399",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "5":{
         "id": 5,
-        "name":"bed5",
+        "name":"Кровать №5",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "6":{
         "id": 6,
-        "name":"bed6",
+        "name":"Кровать №6",
         "cost":"3499",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "7":{
         "id": 7,
-        "name":"bed7",
+        "name":"Кровать №7",
         "cost":"5999",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "8":{
         "id": 8,
-        "name":"bed8",
+        "name":"Кровать №8",
         "cost":"799",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "9":{
         "id": 9,
-        "name":"bed9",
+        "name":"Кровать №9",
         "cost":"1499",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "10":{
         "id": 10,
-        "name":"bed10",
+        "name":"Кровать №10",
         "cost":"1999",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "11":{
         "id": 11,
-        "name":"bed11",
+        "name":"Кровать №11",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "12":{
         "id": 12,
-        "name":"bed12",
+        "name":"Кровать №12",
         "cost":"149",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "13":{
         "id": 13,
-        "name":"bed13",
+        "name":"Кровать №13",
         "cost":"99",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "14":{
         "id": 14,
-        "name":"bed14",
+        "name":"Кровать №14",
         "cost":"1399",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "15":{
         "id": 15,
-        "name":"bed15",
+        "name":"Кровать №15",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "16":{
         "id": 16,
-        "name":"bed16",
+        "name":"Кровать №16",
         "cost":"3499",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "17":{
         "id": 17,
-        "name":"bed17",
+        "name":"Кровать №17",
         "cost":"5999",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "18":{
         "id": 18,
-        "name":"bed18",
+        "name":"Кровать №18",
         "cost":"799",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "19":{
         "id": 19,
-        "name":"bed19",
+        "name":"Кровать №19",
         "cost":"1499",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "20":{
         "id": 20,
-        "name":"bed20",
+        "name":"Кровать №20",
         "cost":"1999",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "21":{
         "id": 21,
-        "name":"bed21",
+        "name":"Кровать №21",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "22":{
         "id": 22,
-        "name":"bed22",
+        "name":"Кровать №22",
         "cost":"149",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "23":{
         "id": 23,
-        "name":"bed23",
+        "name":"Кровать №23",
         "cost":"99",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "24":{
         "id": 24,
-        "name":"bed24",
+        "name":"Кровать №24",
         "cost":"1399",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "25":{
         "id": 25,
-        "name":"bed25",
+        "name":"Кровать №25",
         "cost":"199",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "26":{
         "id": 26,
-        "name":"bed26",
+        "name":"Кровать №26",
         "cost":"3499",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "27":{
         "id": 27,
-        "name":"bed27",
+        "name":"Кровать №27",
         "cost":"5999",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "28":{
         "id": 28,
-        "name":"bed28",
+        "name":"Кровать №28",
         "cost":"799",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "29":{
         "id": 29,
-        "name":"bed29",
+        "name":"Кровать №29",
         "cost":"1499",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "30":{
         "id": 30,
-        "name":"bed30",
+        "name":"Кровать №30",
         "cost":"1999",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "31":{
         "id": 31,
-        "name":"bed31",
+        "name":"Кровать №31",
         "cost":"199",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "32":{
         "id": 32,
-        "name":"bed32",
+        "name":"Кровать №32",
         "cost":"149",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "33":{
         "id": 33,
-        "name":"bed33",
+        "name":"Кровать №33",
         "cost":"99",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "34":{
         "id": 34,
-        "name":"bed34",
+        "name":"Кровать №34",
         "cost":"1399",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "35":{
         "id": 35,
-        "name":"bed35",
+        "name":"Кровать №35",
         "cost":"199",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "36":{
         "id": 36,
-        "name":"bed36",
+        "name":"Кровать №36",
         "cost":"3499",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "37":{
         "id": 37,
-        "name":"bed37",
+        "name":"Кровать №37",
         "cost":"5999",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "38":{
         "id": 38,
-        "name":"bed38",
+        "name":"Кровать №38",
         "cost":"799",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "39":{
         "id": 39,
-        "name":"bed39",
+        "name":"Кровать №39",
         "cost":"1499",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "40":{
         "id": 40,
-        "name":"bed40",
+        "name":"Кровать №40",
         "cost":"1999",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "41":{
         "id": 41,
-        "name":"bed41",
+        "name":"Кровать №41",
         "cost":"199",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "42":{
         "id": 42,
-        "name":"bed42",
+        "name":"Кровать №42",
         "cost":"149",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "43":{
         "id": 43,
-        "name":"bed43",
+        "name":"Кровать №43",
         "cost":"99",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "44":{
         "id": 44,
-        "name":"bed44",
+        "name":"Кровать №44",
         "cost":"1399",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "45":{
         "id": 45,
-        "name":"bed45",
+        "name":"Кровать №45",
         "cost":"199",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "46":{
         "id": 46,
-        "name":"bed46",
+        "name":"Кровать №46",
         "cost":"3499",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "47":{
         "id": 47,
-        "name":"bed47",
+        "name":"Кровать №47",
         "cost":"5999",
         "description":"eeq",
         "img":"images/bed.png"
     },
     "48":{
         "id": 48,
-        "name":"bed48",
+        "name":"Кровать №48",
         "cost":"799",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "49":{
         "id": 49,
-        "name":"bed49",
+        "name":"Кровать №49",
         "cost":"1499",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "50":{
         "id": 50,
-        "name":"bed50",
+        "name":"Кровать №50",
         "cost":"1999",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "51":{
         "id": 51,
-        "name":"bed51",
+        "name":"Кровать №51",
         "cost":"199",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "52":{
         "id": 52,
-        "name":"bed52",
+        "name":"Кровать №52",
         "cost":"149",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "53":{
         "id": 53,
-        "name":"bed53",
+        "name":"Кровать №53",
         "cost":"99",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "54":{
         "id": 54,
-        "name":"bed54",
+        "name":"Кровать №54",
         "cost":"1399",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "55":{
         "id": 55,
-        "name":"bed55",
+        "name":"Кровать №55",
         "cost":"199",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "56":{
         "id": 56,
-        "name":"bed56",
+        "name":"Кровать №56",
         "cost":"3499",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "57":{
         "id": 57,
-        "name":"bed57",
+        "name":"Кровать №57",
         "cost":"5999",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "58":{
         "id": 58,
-        "name":"bed58",
+        "name":"Кровать №58",
         "cost":"799",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "59":{
         "id": 59,
-        "name":"bed59",
+        "name":"Кровать №59",
         "cost":"1499",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "60":{
         "id": 60,
-        "name":"bed60",
+        "name":"Кровать №60",
         "cost":"1999",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "61":{
         "id": 61,
-        "name":"bed61",
+        "name":"Кровать №61",
         "cost":"199",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "62":{
         "id": 62,
-        "name":"bed62",
+        "name":"Кровать №62",
         "cost":"149",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "63":{
         "id": 63,
-        "name":"bed63",
+        "name":"Кровать №63",
         "cost":"99",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "64":{
         "id": 64,
-        "name":"bed64",
+        "name":"Кровать №64",
         "cost":"1399",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "65":{
         "id": 65,
-        "name":"bed65",
+        "name":"Кровать №65",
         "cost":"199",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "66":{
         "id": 66,
-        "name":"bed66",
+        "name":"Кровать №66",
         "cost":"3499",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "67":{
         "id": 67,
-        "name":"bed67",
+        "name":"Кровать №67",
         "cost":"5999",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "68":{
         "id": 68,
-        "name":"bed68",
+        "name":"Кровать №68",
         "cost":"799",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "69":{
         "id": 69,
-        "name":"bed69",
+        "name":"Кровать №69",
         "cost":"1499",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "70":{
         "id": 70,
-        "name":"bed70",
+        "name":"Кровать №70",
         "cost":"1999",
         "description":"nnn",
         "img":"images/bed.png"
     },
     "71":{
         "id": 71,
-        "name":"bed71",
+        "name":"Кровать №71",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "72":{
         "id": 72,
-        "name":"bed72",
+        "name":"Кровать №72",
         "cost":"149",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "73":{
         "id": 73,
-        "name":"bed73",
+        "name":"Кровать №73",
         "cost":"99",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "74":{
         "id": 74,
-        "name":"bed74",
+        "name":"Кровать №74",
         "cost":"1399",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "75":{
         "id": 75,
-        "name":"bed75",
+        "name":"Кровать №75",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "76":{
         "id": 76,
-        "name":"bed76",
+        "name":"Кровать №76",
         "cost":"3499",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "77":{
         "id": 77,
-        "name":"bed77",
+        "name":"Кровать №77",
         "cost":"5999",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "78":{
         "id": 78,
-        "name":"bed78",
+        "name":"Кровать №78",
         "cost":"799",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "79":{
         "id": 79,
-        "name":"bed79",
+        "name":"Кровать №79",
         "cost":"1499",
         "description":"bla-bla-bla",
         "img":"images/bed.png"
     },
     "80":{
         "id": 80,
-        "name":"bed80",
+        "name":"Кровать №80",
         "cost":"1999",
         "description":"bla-bla-bla",
         "img":"images/bed.png"

@@ -1,462 +1,462 @@
 {
     "1":{
         "id": 1,
-        "name":"table1",
+        "name":"Стол №1",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "2":{
         "id": 2,
-        "name":"table2",
+        "name":"Стол №2",
         "cost":"149",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "3":{
         "id": 3,
-        "name":"table3",
+        "name":"Стол №3",
         "cost":"99",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "4":{
         "id": 4,
-        "name":"table4",
+        "name":"Стол №4",
         "cost":"1399",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "5":{
         "id": 5,
-        "name":"table5",
+        "name":"Стол №5",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "6":{
         "id": 6,
-        "name":"table6",
+        "name":"Стол №6",
         "cost":"3499",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "7":{
         "id": 7,
-        "name":"table7",
+        "name":"Стол №7",
         "cost":"5999",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "8":{
         "id": 8,
-        "name":"table8",
+        "name":"Стол №8",
         "cost":"799",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "9":{
         "id": 9,
-        "name":"table9",
+        "name":"Стол №9",
         "cost":"1499",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "10":{
         "id": 10,
-        "name":"table10",
+        "name":"Стол №10",
         "cost":"1999",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "11":{
         "id": 11,
-        "name":"table11",
+        "name":"Стол №11",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "12":{
         "id": 12,
-        "name":"table12",
+        "name":"Стол №12",
         "cost":"149",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "13":{
         "id": 13,
-        "name":"table13",
+        "name":"Стол №13",
         "cost":"99",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "14":{
         "id": 14,
-        "name":"table14",
+        "name":"Стол №14",
         "cost":"1399",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "15":{
         "id": 15,
-        "name":"table15",
+        "name":"Стол №15",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "16":{
         "id": 16,
-        "name":"table16",
+        "name":"Стол №16",
         "cost":"3499",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "17":{
         "id": 17,
-        "name":"table17",
+        "name":"Стол №17",
         "cost":"5999",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "18":{
         "id": 18,
-        "name":"table18",
+        "name":"Стол №18",
         "cost":"799",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "19":{
         "id": 19,
-        "name":"table19",
+        "name":"Стол №19",
         "cost":"1499",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "20":{
         "id": 20,
-        "name":"table20",
+        "name":"Стол №20",
         "cost":"1999",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "21":{
         "id": 21,
-        "name":"table21",
+        "name":"Стол №21",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/table.png"
     },
     "22":{
         "id": 22,
-        "name":"table22",
+        "name":"Стол №22",
         "cost":"149",
         "description":"eeq",
         "img":"images/table.png"
     },
     "23":{
         "id": 23,
-        "name":"table23",
+        "name":"Стол №23",
         "cost":"99",
         "description":"eeq",
         "img":"images/table.png"
     },
     "24":{
         "id": 24,
-        "name":"table24",
+        "name":"Стол №24",
         "cost":"1399",
         "description":"eeq",
         "img":"images/table.png"
     },
     "25":{
         "id": 25,
-        "name":"table25",
+        "name":"Стол №25",
         "cost":"199",
         "description":"eeq",
         "img":"images/table.png"
     },
     "26":{
         "id": 26,
-        "name":"table26",
+        "name":"Стол №26",
         "cost":"3499",
         "description":"eeq",
         "img":"images/table.png"
     },
     "27":{
         "id": 27,
-        "name":"table27",
+        "name":"Стол №27",
         "cost":"5999",
         "description":"eeq",
         "img":"images/table.png"
     },
     "28":{
         "id": 28,
-        "name":"table28",
+        "name":"Стол №28",
         "cost":"799",
         "description":"eeq",
         "img":"images/table.png"
     },
     "29":{
         "id": 29,
-        "name":"table29",
+        "name":"Стол №29",
         "cost":"1499",
         "description":"eeq",
         "img":"images/table.png"
     },
     "30":{
         "id": 30,
-        "name":"table30",
+        "name":"Стол №30",
         "cost":"1999",
         "description":"eeq",
         "img":"images/table.png"
     },
     "31":{
         "id": 31,
-        "name":"table31",
+        "name":"Стол №31",
         "cost":"199",
         "description":"eeq",
         "img":"images/table.png"
     },
     "32":{
         "id": 32,
-        "name":"table32",
+        "name":"Стол №32",
         "cost":"149",
         "description":"eeq",
         "img":"images/table.png"
     },
     "33":{
         "id": 33,
-        "name":"table33",
+        "name":"Стол №33",
         "cost":"99",
         "description":"eeq",
         "img":"images/table.png"
     },
     "34":{
         "id": 34,
-        "name":"table34",
+        "name":"Стол №34",
         "cost":"1399",
         "description":"eeq",
         "img":"images/table.png"
     },
     "35":{
         "id": 35,
-        "name":"table35",
+        "name":"Стол №35",
         "cost":"199",
         "description":"eeq",
         "img":"images/table.png"
     },
     "36":{
         "id": 36,
-        "name":"table36",
+        "name":"Стол №36",
         "cost":"3499",
         "description":"eeq",
         "img":"images/table.png"
     },
     "37":{
         "id": 37,
-        "name":"table37",
+        "name":"Стол №37",
         "cost":"5999",
         "description":"eeq",
         "img":"images/table.png"
     },
     "38":{
         "id": 38,
-        "name":"table38",
+        "name":"Стол №38",
         "cost":"799",
         "description":"eeq",
         "img":"images/table.png"
     },
     "39":{
         "id": 39,
-        "name":"table39",
+        "name":"Стол №39",
         "cost":"1499",
         "description":"eeq",
         "img":"images/table.png"
     },
     "40":{
         "id": 40,
-        "name":"table40",
+        "name":"Стол №40",
         "cost":"1999",
         "description":"eeq",
         "img":"images/table.png"
     },
     "41":{
         "id": 41,
-        "name":"table41",
+        "name":"Стол №41",
         "cost":"199",
         "description":"eeq",
         "img":"images/table.png"
     },
     "42":{
         "id": 42,
-        "name":"table42",
+        "name":"Стол №42",
         "cost":"149",
         "description":"eeq",
         "img":"images/table.png"
     },
     "43":{
         "id": 43,
-        "name":"table43",
+        "name":"Стол №43",
         "cost":"99",
         "description":"eeq",
         "img":"images/table.png"
     },
     "44":{
         "id": 44,
-        "name":"table44",
+        "name":"Стол №44",
         "cost":"1399",
         "description":"eeq",
         "img":"images/table.png"
     },
     "45":{
         "id": 45,
-        "name":"table45",
+        "name":"Стол №45",
         "cost":"199",
         "description":"eeq",
         "img":"images/table.png"
     },
     "46":{
         "id": 46,
-        "name":"table46",
+        "name":"Стол №46",
         "cost":"3499",
         "description":"eeq",
         "img":"images/table.png"
     },
     "47":{
         "id": 47,
-        "name":"table47",
+        "name":"Стол №47",
         "cost":"5999",
         "description":"eeq",
         "img":"images/table.png"
     },
     "48":{
         "id": 48,
-        "name":"table48",
+        "name":"Стол №48",
         "cost":"799",
         "description":"nnn",
         "img":"images/table.png"
     },
     "49":{
         "id": 49,
-        "name":"table49",
+        "name":"Стол №49",
         "cost":"1499",
         "description":"nnn",
         "img":"images/table.png"
     },
     "50":{
         "id": 50,
-        "name":"table50",
+        "name":"Стол №50",
         "cost":"1999",
         "description":"nnn",
         "img":"images/table.png"
     },
     "51":{
         "id": 51,
-        "name":"table51",
+        "name":"Стол №51",
         "cost":"199",
         "description":"nnn",
         "img":"images/table.png"
     },
     "52":{
         "id": 52,
-        "name":"table52",
+        "name":"Стол №52",
         "cost":"149",
         "description":"nnn",
         "img":"images/table.png"
     },
     "53":{
         "id": 53,
-        "name":"table53",
+        "name":"Стол №53",
         "cost":"99",
         "description":"nnn",
         "img":"images/table.png"
     },
     "54":{
         "id": 54,
-        "name":"table54",
+        "name":"Стол №54",
         "cost":"1399",
         "description":"nnn",
         "img":"images/table.png"
     },
     "55":{
         "id": 55,
-        "name":"table55",
+        "name":"Стол №55",
         "cost":"199",
         "description":"nnn",
         "img":"images/table.png"
     },
     "56":{
         "id": 56,
-        "name":"table56",
+        "name":"Стол №56",
         "cost":"3499",
         "description":"nnn",
         "img":"images/table.png"
     },
     "57":{
         "id": 57,
-        "name":"table57",
+        "name":"Стол №57",
         "cost":"5999",
         "description":"nnn",
         "img":"images/table.png"
     },
     "58":{
         "id": 58,
-        "name":"table58",
+        "name":"Стол №58",
         "cost":"799",
         "description":"nnn",
         "img":"images/table.png"
     },
     "59":{
         "id": 59,
-        "name":"table59",
+        "name":"Стол №59",
         "cost":"1499",
         "description":"nnn",
         "img":"images/table.png"
     },
     "60":{
         "id": 60,
-        "name":"table60",
+        "name":"Стол №60",
         "cost":"1999",
         "description":"nnn",
         "img":"images/table.png"
     },
     "61":{
         "id": 61,
-        "name":"table61",
+        "name":"Стол №61",
         "cost":"199",
         "description":"nnn",
         "img":"images/table.png"
     },
     "62":{
         "id": 62,
-        "name":"table62",
+        "name":"Стол №62",
         "cost":"149",
         "description":"nnn",
         "img":"images/table.png"
     },
     "63":{
         "id": 63,
-        "name":"table63",
+        "name":"Стол №63",
         "cost":"99",
         "description":"nnn",
         "img":"images/table.png"
     },
     "64":{
         "id": 64,
-        "name":"table64",
+        "name":"Стол №64",
         "cost":"1399",
         "description":"nnn",
         "img":"images/table.png"
     },
     "65":{
         "id": 65,
-        "name":"table65",
+        "name":"Стол №65",
         "cost":"199",
         "description":"nnn",
         "img":"images/table.png"
     },
     "66":{
         "id": 66,
-        "name":"table66",
+        "name":"Стол №66",
         "cost":"3499",
         "description":"nnn",
         "img":"images/table.png"

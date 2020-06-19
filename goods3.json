@@ -1,392 +1,392 @@
 {
     "1":{
         "id": 1,
-        "name":"chair1",
+        "name":"Стул 1",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "2":{
         "id": 2,
-        "name":"chair2",
+        "name":"Стул 2",
         "cost":"149",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "3":{
         "id": 3,
-        "name":"chair3",
+        "name":"Стул 3",
         "cost":"99",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "4":{
         "id": 4,
-        "name":"chair4",
+        "name":"Стул 4",
         "cost":"1399",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "5":{
         "id": 5,
-        "name":"chair5",
+        "name":"Стул 5",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "6":{
         "id": 6,
-        "name":"chair6",
+        "name":"Стул 6",
         "cost":"3499",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "7":{
         "id": 7,
-        "name":"chair7",
+        "name":"Стул 7",
         "cost":"5999",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "8":{
         "id": 8,
-        "name":"chair8",
+        "name":"Стул 8",
         "cost":"799",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "9":{
         "id": 9,
-        "name":"chair9",
+        "name":"Стул 9",
         "cost":"1499",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "10":{
         "id": 10,
-        "name":"chair10",
+        "name":"Стул 10",
         "cost":"1999",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "11":{
         "id": 11,
-        "name":"chair11",
+        "name":"Стул 11",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "12":{
         "id": 12,
-        "name":"chair12",
+        "name":"Стул 12",
         "cost":"149",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "13":{
         "id": 13,
-        "name":"chair13",
+        "name":"Стул 13",
         "cost":"99",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "14":{
         "id": 14,
-        "name":"chair14",
+        "name":"Стул 14",
         "cost":"1399",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "15":{
         "id": 15,
-        "name":"chair15",
+        "name":"Стул 15",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "16":{
         "id": 16,
-        "name":"chair16",
+        "name":"Стул 16",
         "cost":"3499",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "17":{
         "id": 17,
-        "name":"chair17",
+        "name":"Стул 17",
         "cost":"5999",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "18":{
         "id": 18,
-        "name":"chair18",
+        "name":"Стул 18",
         "cost":"799",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "19":{
         "id": 19,
-        "name":"chair19",
+        "name":"Стул 19",
         "cost":"1499",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "20":{
         "id": 20,
-        "name":"chair20",
+        "name":"Стул 20",
         "cost":"1999",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "21":{
         "id": 21,
-        "name":"chair21",
+        "name":"Стул 21",
         "cost":"199",
         "description":"bla-bla-bla",
         "img":"images/chair.png"
     },
     "22":{
         "id": 22,
-        "name":"chair22",
+        "name":"Стул 22",
         "cost":"149",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "23":{
         "id": 23,
-        "name":"chair23",
+        "name":"Стул 23",
         "cost":"99",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "24":{
         "id": 24,
-        "name":"chair24",
+        "name":"Стул 24",
         "cost":"1399",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "25":{
         "id": 25,
-        "name":"chair25",
+        "name":"Стул 25",
         "cost":"199",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "26":{
         "id": 26,
-        "name":"chair26",
+        "name":"Стул 26",
         "cost":"3499",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "27":{
         "id": 27,
-        "name":"chair27",
+        "name":"Стул 27",
         "cost":"5999",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "28":{
         "id": 28,
-        "name":"chair28",
+        "name":"Стул 28",
         "cost":"799",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "29":{
         "id": 29,
-        "name":"chair29",
+        "name":"Стул 29",
         "cost":"1499",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "30":{
         "id": 30,
-        "name":"chair30",
+        "name":"Стул 30",
         "cost":"1999",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "31":{
         "id": 31,
-        "name":"chair31",
+        "name":"Стул 31",
         "cost":"199",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "32":{
         "id": 32,
-        "name":"chair32",
+        "name":"Стул 32",
         "cost":"149",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "33":{
         "id": 33,
-        "name":"chair33",
+        "name":"Стул 33",
         "cost":"99",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "34":{
         "id": 34,
-        "name":"chair34",
+        "name":"Стул 34",
         "cost":"1399",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "35":{
         "id": 35,
-        "name":"chair35",
+        "name":"Стул 35",
         "cost":"199",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "36":{
         "id": 36,
-        "name":"chair36",
+        "name":"Стул 36",
         "cost":"3499",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "37":{
         "id": 37,
-        "name":"chair37",
+        "name":"Стул 37",
         "cost":"5999",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "38":{
         "id": 38,
-        "name":"chair38",
+        "name":"Стул 38",
         "cost":"799",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "39":{
         "id": 39,
-        "name":"chair39",
+        "name":"Стул 39",
         "cost":"1499",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "40":{
         "id": 40,
-        "name":"chair40",
+        "name":"Стул 40",
         "cost":"1999",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "41":{
         "id": 41,
-        "name":"chair41",
+        "name":"Стул 41",
         "cost":"199",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "42":{
         "id": 42,
-        "name":"chair42",
+        "name":"Стул 42",
         "cost":"149",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "43":{
         "id": 43,
-        "name":"chair43",
+        "name":"Стул 43",
         "cost":"99",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "44":{
         "id": 44,
-        "name":"chair44",
+        "name":"Стул 44",
         "cost":"1399",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "45":{
         "id": 45,
-        "name":"chair45",
+        "name":"Стул 45",
         "cost":"199",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "46":{
         "id": 46,
-        "name":"chair46",
+        "name":"Стул 46",
         "cost":"3499",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "47":{
         "id": 47,
-        "name":"chair47",
+        "name":"Стул 47",
         "cost":"5999",
         "description":"eeq",
         "img":"images/chair.png"
     },
     "48":{
         "id": 48,
-        "name":"chair48",
+        "name":"Стул 48",
         "cost":"799",
         "description":"nnn",
         "img":"images/chair.png"
     },
     "49":{
         "id": 49,
-        "name":"chair49",
+        "name":"Стул 49",
         "cost":"1499",
         "description":"nnn",
         "img":"images/chair.png"
     },
     "50":{
         "id": 50,
-        "name":"chair50",
+        "name":"Стул 50",
         "cost":"1999",
         "description":"nnn",
         "img":"images/chair.png"
     },
     "51":{
         "id": 51,
-        "name":"chair51",
+        "name":"Стул 51",
         "cost":"199",
         "description":"nnn",
         "img":"images/chair.png"
     },
     "52":{
         "id": 52,
-        "name":"chair52",
+        "name":"Стул 52",
         "cost":"149",
         "description":"nnn",
         "img":"images/chair.png"
     },
     "53":{
         "id": 53,
-        "name":"chair53",
+        "name":"Стул 53",
         "cost":"99",
         "description":"nnn",
         "img":"images/chair.png"
     },
     "54":{
         "id": 54,
-        "name":"chair54",
+        "name":"Стул 54",
         "cost":"1399",
         "description":"nnn",
         "img":"images/chair.png"
     },
     "55":{
         "id": 55,
-        "name":"chair55",
+        "name":"Стул 55",
         "cost":"199",
         "description":"nnn",
         "img":"images/chair.png"
     },
     "56":{
         "id": 56,
-        "name":"chair56",
+        "name":"Стул 56",
         "cost":"3499",
         "description":"nnn",
         "img":"images/chair.png"
